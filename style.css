@@ -69,3 +69,37 @@ button.btn.btn-info.btn-lg.btn-block {
     background: #579830;
     margin-left: -54px;
 }
+.About-section{
+    background: #f3f6fb;
+}
+.text-about.py-5 {
+    margin-top: 65px;
+    line-height: 29px;
+}
+
+
+/* folio-item */
+.portfolip-item{}
+.portfolip-item a{
+    position: relative;
+    display: block;
+
+}
+.portfolip-item a::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.564);
+    opacity: 0;
+    visibility: hidden;
+    transition: .7s;
+   
+
+}
+.portfolip-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
