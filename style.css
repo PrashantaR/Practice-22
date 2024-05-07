@@ -103,3 +103,58 @@ button.btn.btn-info.btn-lg.btn-block {
     opacity: 1;
     visibility: visible;
 }
+
+
+/* section */
+.section{ background: #f7f9ff;
+padding: 50px;}
+.card-section h1 {
+    margin-left: 21px;
+    font-weight: 600;
+}
+.section p{}
+.card-section{
+    background: #ffff;
+}
+.card-section h5 {
+    margin-left: 23px;
+}
+.card-section h5{}
+.card-section ul{
+    margin-left: 0;
+    padding-left: 0;
+}
+.card-section ul li span {
+    color: aquamarine;
+    font-size: 20px;
+    display: inline-block;
+    width: 32px;
+    font-weight: 600;
+}
+.card-section ul li {
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    margin-left: 17px;
+    font-weight: 600;
+}
+.prizing-item a {
+    padding: 7px 57px;
+    box-shadow: 4px 3px 4px -1px;
+}
+.section-img img {
+    float: left;
+    width: 113px;
+    margin: auto;
+}
+.section-img p {
+    width: 261px;
+    text-align: center;
+    margin: auto;
+}
+
+img.rounded-circle.w-25 {
+    margin-top: -35px;
+    margin-left: 11px;
+}
